@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+        <style>
+          @font-face {
+            font-family: "Mank";
+            src: url("fonts/MankSans.ttf") format("truetype");
+          }
+          @font-face {
+            font-family: "Determination";
+            src: url("fonts/DTM-Mono.ttf") format("truetype");
+          }
+          @font-face {
+            font-family: "sad";
+            src: url("fonts/PleaseDontLeaveNbp-0Led.ttf") format("truetype");
+          }
+          @font-face {
+            font-family: "akira"; /* one of my fav movies*/
+            src: url("fonts/ForeignAlien3DItalic-nRvAJ.otf") format("opentype");
+          }
+          ::-webkit-scrollbar {
+  width: 30px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 10px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #5EB4FF; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #3D76A5;
+}
+          body{
+            background-color: #10c3e3;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='338' height='338' viewBox='0 0 200 200'%3E%3Cg %3E%3Cpolygon fill='%23000000' points='100 57.1 64 93.1 71.5 100.6 100 72.1'/%3E%3Cpolygon fill='%23000000' points='100 57.1 100 72.1 128.6 100.6 136.1 93.1'/%3E%3Cpolygon fill='%23000000' points='100 163.2 100 178.2 170.7 107.5 170.8 92.4'/%3E%3Cpolygon fill='%23000000' points='100 163.2 29.2 92.5 29.2 107.5 100 178.2'/%3E%3Cpath fill='%23000000' d='M100 21.8L29.2 92.5l70.7 70.7l70.7-70.7L100 21.8z M100 127.9L64.6 92.5L100 57.1l35.4 35.4L100 127.9z'/%3E%3Cpolygon fill='%230b80b3' points='0 157.1 0 172.1 28.6 200.6 36.1 193.1'/%3E%3Cpolygon fill='%230d9cd9' points='70.7 200 70.8 192.4 63.2 200'/%3E%3Cpolygon fill='%230fb7ff' points='27.8 200 63.2 200 70.7 192.5 0 121.8 0 157.2 35.3 192.5'/%3E%3Cpolygon fill='%230d9cd9' points='200 157.1 164 193.1 171.5 200.6 200 172.1'/%3E%3Cpolygon fill='%230b80b3' points='136.7 200 129.2 192.5 129.2 200'/%3E%3Cpolygon fill='%230fb7ff' points='172.1 200 164.6 192.5 200 157.1 200 157.2 200 121.8 200 121.8 129.2 192.5 136.7 200'/%3E%3Cpolygon fill='%230b80b3' points='129.2 0 129.2 7.5 200 78.2 200 63.2 136.7 0'/%3E%3Cpolygon fill='%230fb7ff' points='200 27.8 200 27.9 172.1 0 136.7 0 200 63.2 200 63.2'/%3E%3Cpolygon fill='%230d9cd9' points='63.2 0 0 63.2 0 78.2 70.7 7.5 70.7 0'/%3E%3Cpolygon fill='%230fb7ff' points='0 63.2 63.2 0 27.8 0 0 27.8'/%3E%3C/g%3E%3C/svg%3E");
+          }
+          .button1{
+              font-family: "Determination";
+              color:white;
+              font-weight: bold;
+              font-size: 600%;
+          }
+          .button2{
+              font-family: "sad";
+              color:white;
+              font-weight: bold;
+              font-size: 700%;
+          }
+          .button3{
+              font-family: "akira";
+              color:white;
+              font-weight: bold;
+              font-size: 600%;
+          }
+          .acctext{
+            color:#10c3e3;
+            font-size: 300%;
+            text-align: center;
+          }
+        </style>
+        <script src="bootstrap.bundle.js"></script>
+        <script src="bootstrap.bundle.js.map"></script>
+        <script src="bootstrap.bundle.min.js"></script>
+        <script src="bootstrap.bundle.min.js.map"></script>
+        <script src="bootstrap.esm.js"></script>
+        <script src="bootstrap.esm.js.map"></script>
+        <script src="bootstrap.esm.min.js"></script>
+        <script src="bootstrap.esm.min.js.map"></script>
+        <script src="bootstrap.js"></script>
+        <script src="bootstrap.js.map"></script>
+        <script src="bootstrap.min.js"></script>
+        <script src="bootstrap.min.js.map"></script>
+        <script src="scripts.js"></script>
+        <title>DayDream Games: PRODUCTS</title>
+    </head>
+    <body>
+        <div class="bs-example">
+            <nav class="navbar navbar-expand-md navbar-light bg-light">
+                <a href="#" class="navbar-brand">
+                    <img src="images/daydreamgames.png" height="120" alt="CoolBrand">
+                </a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+        
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav">
+                        <a href="index.html" class="nav-item nav-link ">Home</a>
+                        <a href="aboutus.html" class="nav-item nav-link">About Us</a>
+                        <a href="contactus.html" class="nav-item nav-link">Contact Us</a>
+                        <a href="products.html" class="nav-item nav-link active">Products</a>
+                        <a href="paying.html" class="nav-item nav-link">Donate</a>
+                    </div>
+                    <div class="navbar-nav ml-auto">
+                        <a href="login.html" class="nav-item nav-link">Login</a>
+                        <a href="signup.html" class="nav-item nav-link">Sign Up</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="container-fluid">
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button collapsed button1" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      The Multiverse
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body acctext" style="background-color: white;">
+                       <img src="images/the_multiverse.png" class="img-fluid float-md-end">
+                      The Multiverse is the un-official fan-made continuation of ©Undertale by Toby Fox. The concept is the entire Undertale AU Fandom has worked together to create different alternate universes. The Multiverse will combine all of them, by keeping the spirit of the original game, while also creating a different and unique experience and story at every turn. As Frisk falls down... AGAIN... to a room of portals taking them to these all drastically different occurances of the world Frisk lives in now, you will start to wonder, will he ever get home?
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed button2" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Don't Lose Faith
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body acctext" style="background-color: white;">
+                        <img src="images/dontlosefaith.jpg" class="img-fluid float-md-start" style="width: 50%">
+                        Don't Lose Faith is a interactive story game, based in a world called the Below. The Below is a arid, dark, and scary place where monsters go to hide from the monsters that slay in the Above. After a series of unfortunate events, you have foudn yourself in this place without knowing how or why. Your goal is to leave this horrid and hannus place, and reunite with the world you saw yourself in. You meet many other helpless souls and monsters, giving them encouragement and enlightenment on the way. Then, you realize that you are their savior and you must save them from the monsters contained in the Above. Using puzzles, combat, and perseverance, you will find many different unique ways to beat them. In a world of beautiful characters, and a dark, unfamiliar atmosphere and location, this game will truly make sure you <strong>Don't Lose Faith</strong>.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed button3" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Alone Escape
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body acctext" style="background-color: white;">
+                        <img src="images/aloneescape.jpg" class="img-fluid float-md-end" style="width: 50%;">
+                        Heavily inspired by the classic FPS games we all know and love, <strong>Alone Escape</strong> (including it's single player campaign) takes notes from these original's while creating unorthodox and creative ways on how to make the game fresh and fun! Alone Escape is a single-player, local Co-op, online Co-op, and massive multiplayer game based on the concepts of teleportation. Each player is given a grenade, when thrown, teleports the player to that location. There are certain walls that a cooked grenade cannot be thrown on and on certain walls when cooked correctly, it can teleport a group or a single enemy! We will have many variations of the combat and modes, including our own CTF based mode called Interruption, where groups of teams work together to plan and use travel grenades accordingly to coordinate a plan to Interrupt the Signal on the enemy team. Each signal's goal is to run for 2 minutes successfully without other teams interrupting the signal, so that extraction can come and save the soldiers! Modes like that are heavy thought out and we promise, <strong>Alone Escape</strong> is an idea that we don't plan on wasting. 
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+        
+        
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    </body>
+</html>
